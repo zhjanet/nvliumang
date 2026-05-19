@@ -1,0 +1,24 @@
+baseURL = "https://nvliumang.com/"
+languageCode = "en-us"
+title = "女流氓 nvliumang"
+theme = "PaperMod"
+
+[params]
+  description = "A personal blog about women, language, psychology, motherhood, migration, money, and becoming harder to domesticate."
+  ShowReadingTime = true
+  ShowShareButtons = true
+
+[[menu.main]]
+  name = "Home"
+  url = "/"
+  weight = 1
+
+[[menu.main]]
+  name = "Blog"
+  url = "/posts/"
+  weight = 2
+
+[[menu.main]]
+  name = "About"
+  url = "/about/"
+  weight = 3
